@@ -1,3 +1,5 @@
-## 1era version de Readme
+## Readme
 
-WIP
+AI Tools Diseño
+
+No Tracking carpeta img
