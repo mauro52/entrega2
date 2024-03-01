@@ -1,0 +1,94 @@
+/*
+Style Para todas las paginas -------
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10%;
+
+}
+
+.logo{
+    width: 95px;
+    height: 95px;
+}
+
+.menuNav {
+    list-style: none;
+    font-size: medium;
+    border-style: solid;
+    border-color: gray;
+
+    margin-left: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+nav ul li a {
+
+    border-style: dashed;
+    border-color: gray;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+.h1span{
+    background-color: red;
+}
+
+body {
+    background-image: url(../img/back.jpeg);
+    background-position: 5rem 4rem 2 rem 1 rem;
+}
+
+.footerAll {
+    font-size: small;
+    position: fixed;
+    top: 98%;
+    left: 90%;
+}
+
+/*
+Style Para todas las paginas -------
+*/
+
+
+/*
+Index -------
+*/
+
+.principal{
+    position: absolute;
+    top: 10rem;
+left: 70%;
+right: 20%;
+
+    }
+
+.h1spanprincipal {
+    background-color: red;
+    
+}
+
+.pprincipal {
+
+    border-style: solid;
+    border-color: gray;
+}
+
+/*
+Index -------
+*/
