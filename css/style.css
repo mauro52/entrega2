@@ -9,21 +9,8 @@ Style Para todas las paginas -------
     text-decoration: none;
 }
 
-.logo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: auto;
-    width: 8rem;
-    margin-top: 1rem;
-}
-
-.logo p{
-    margin-top: 1rem;
-}
-
-.menuNav {
-    list-style: none;
+.logomargin{
+    margin-bottom: 1rem;
 }
 
 .redes{
