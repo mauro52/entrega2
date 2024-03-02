@@ -10,6 +10,13 @@ Style Para todas las paginas -------
     color: black; /*requerido para nav bar logo por "dark mode" de bootstrap */
 }
 
+.borderstyle{
+    border: solid white;
+    border-radius: 2%;
+    margin: 1rem;
+    
+}
+
 .textdarkmode{
     color: white; /*requerido para offcanvas en mobile */
 }
@@ -71,7 +78,14 @@ Index -------
     }
 }
 
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 990px){
+
+    .borderstyle{
+        border: none; 
+    }
+}
+
+@media only screen and (min-width: 1025px){
     .pprincipal {
         border-style: solid;
         border-color: white;
@@ -79,6 +93,10 @@ Index -------
         margin-left: 20rem;
         margin-right: 20rem;
         padding: 0.5rem;
+    }
+
+    .borderstyle{
+        border: none;        
     }
 }
 
