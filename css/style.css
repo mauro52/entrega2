@@ -16,6 +16,13 @@ Style Para todas las paginas -------
     margin: 1rem;
 }
 
+.borderstyleform{
+    border: solid white;
+    border-radius: 2%;
+    margin: 1rem;
+    padding: 1rem;
+}
+
 .textdarkmode{
     color: white; /*requerido para offcanvas en mobile */
 }
@@ -132,6 +139,12 @@ Work -------
 /*
 Us -------
 */
+
+/*
+Contact -------
+*/
+
+
 
 
 
