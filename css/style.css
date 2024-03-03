@@ -14,7 +14,6 @@ Style Para todas las paginas -------
     border: solid white;
     border-radius: 2%;
     margin: 1rem;
-    
 }
 
 .textdarkmode{
@@ -121,3 +120,20 @@ Tools -------
 .cardmargin{
     margin-bottom: 1rem ;
 }
+
+.card a{
+    text-decoration: none;
+}
+
+/*
+Work -------
+*/
+
+/*
+Us -------
+*/
+
+
+
+
+
