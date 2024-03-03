@@ -31,11 +31,10 @@ Style Para todas las paginas -------
 
 body {
     background-image: url(../img/back.jpeg);
-    padding-top: 130px; /*off canvas navbar require padding */
 }
 
 .footerAll {
-    position: absolute;
+    position: sticky;
     bottom: 2%;
     font-size: x-small;
     left: 0.5rem;
@@ -80,7 +79,7 @@ Index -------
 @media only screen and (min-width: 990px){
 
     .borderstyle{
-        border: none; 
+        border: none; /* fix :error raro con borde en navbar */
     }
 }
 
@@ -112,9 +111,13 @@ Index -------
 Tools -------
 */
 
-.test{
-    width: 50%;
-    border: solid white;
-    border-radius: 2%;
-    padding: 1rem;
+.cardsstyle{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cardmargin{
+    margin-bottom: 1rem ;
 }
