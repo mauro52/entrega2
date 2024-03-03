@@ -38,7 +38,6 @@ body {
     position: absolute;
     bottom: 0.5rem;
     font-size: x-small;
-    margin: auto;
     left: 0.5rem;
 }
 
@@ -113,4 +112,9 @@ Index -------
 Tools -------
 */
 
+.carouselstyle{
 
+    width: 90%;
+    border: solid white;
+    border-radius: 2%;
+}
