@@ -12,10 +12,6 @@ Style Para todas las paginas -------
 }
 
 a:hover{
-    background-color: yellow;
-}
-
-a:active{
     background-color: red;
 }
 
@@ -44,8 +40,12 @@ a:active{
     background-color: red;
 }
 
-body {
+body1{
     background-image: url(../img/back.jpeg);
+}
+
+body{
+    background-color: rgb(163, 163, 224);
 }
 
 .footerAll {
