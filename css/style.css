@@ -11,7 +11,8 @@ Style Para todas las paginas -------
     color: black; /*requerido para nav bar logo por "dark mode" de bootstrap */
 }
 
-a:hover{
+
+a:active{
     background-color: red;
 }
 
@@ -40,19 +41,15 @@ a:hover{
     background-color: red;
 }
 
-body1{
-    background-image: url(../img/back.jpeg);
-}
-
 body{
-    background-color: rgb(163, 163, 224);
+    background-image: url(../img/back3.jpg);
+background-position: left;
 }
-
+    
 .footerAll {
-    position: static;
-    bottom: 98%;
     font-size: x-small;
-    margin-left: 1rem;
+margin-left: 1rem;
+
 }
 
 /*
