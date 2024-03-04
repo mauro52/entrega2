@@ -2,4 +2,4 @@
 
 AI Tools Diseño
 
-No Tracking carpeta img
+Ultimo commit previo a entrega. Agrego Tracking a imagenes para que se pueda visualizar ok.
