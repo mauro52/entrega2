@@ -1,3 +1,11 @@
-body{
-    background-color: red;
-}
+//Estilo general para todo el sitio (fonts, margin, etc)
+@import "allpagesstyle"; 
+//Modificaciones sobre Navbar Bootstrap
+@import "navbar";
+//Index
+@import "index";
+//Tools y Work
+@import "toolswork";
+//Contact
+@import "contact";
+//Us (sin cambios de estilo)

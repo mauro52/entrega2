@@ -1,0 +1,31 @@
+//Modificaciones sobre Navbar Bootstrap
+
+.borderstyle{
+    border: solid white;
+    border-radius: 2%;
+    margin: 1rem;
+}
+
+.textdarkmode{
+    color: white; /*requerido para offcanvas en mobile */
+}
+
+.bordenav{
+    border-bottom: 1px;
+    border-color: white;
+    border-style: solid;
+}
+
+@media only screen and (min-width: 990px){
+
+    .borderstyle{
+        border: none; /* fix :error raro con borde en navbar all desplegarse */
+    }
+}
+
+@media only screen and (min-width: 1025px){
+
+    .borderstyle{
+        border: none;        
+    }
+}

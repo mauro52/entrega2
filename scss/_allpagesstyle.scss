@@ -1,0 +1,31 @@
+//Estilo general para todo el sitio (fonts, margin, etc)
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+    color: black; /*requerido para nav bar logo por "dark mode" de bootstrap */
+}
+
+a:active{
+    background-color: red;
+}
+
+.logomargin{
+    margin-bottom: 1rem;
+}
+
+.h1span{
+    background-color: red;
+}
+
+body{
+    background-image: url(../img/back3.jpg);
+    background-position: left;
+}
+    
+.footerAll {
+    font-size: x-small;
+    margin-left: 1rem;
+}
