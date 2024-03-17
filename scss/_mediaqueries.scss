@@ -6,6 +6,11 @@
         margin-right: 15rem;
         padding: 0.5rem;
     }
+
+    .container_2_p{
+        transform: translate(0,70px);
+    }
+
 }
 
 @media only screen and (min-width: 990px){
@@ -27,4 +32,6 @@
     .borderstyle{
         border: none;        
     }
+
+
 }

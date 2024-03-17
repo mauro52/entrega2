@@ -1,16 +1,24 @@
 //Tools y Work
 
-.cardsstyle{
+main{
+    .h1{
+        text-align: $MBtext-align;
+    }
+}
+
+.cardsstyle {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.cardmargin{
-    margin-bottom: 1rem ;
+.cardmargin {
+    margin-bottom: 1rem;
 }
 
-.card a{
-    text-decoration: none;
+.card {
+    a {
+        text-decoration: none;
+    }
 }
