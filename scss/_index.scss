@@ -21,34 +21,6 @@
     padding: 0.5rem;
 }
 
-@media only screen and (min-width: 768px) and (max-width:1024px){
-    /*Para mejorar margen*/
-    .pprincipal {
-        border-style: solid;
-        border-color: white;
-        border-radius: 2%;
-        margin-left: 15rem;
-        margin-right: 15rem;
-        padding: 0.5rem;
-    }
-}
-
-@media only screen and (min-width: 1025px){
-    .pprincipal {
-        /*Para mejorar margen*/
-        border-style: solid;
-        border-color: white;
-        border-radius: 2%;
-        margin-left: 20rem;
-        margin-right: 20rem;
-        padding: 0.5rem;
-    }
-
-    .borderstyle{
-        border: none;        
-    }
-}
-
 .redes{
     display: flex;
     justify-content: center;
