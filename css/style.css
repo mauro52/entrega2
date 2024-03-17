@@ -1,17 +1,130 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 3 | @import "allpagesstyle"; 
- *   |         ^^^^^^^^^^^^^^^
- *   '
- *   scss/style.scss 3:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 3 \2502  @import \"allpagesstyle\"; \a   \2502          ^^^^^^^^^^^^^^^\a   \2575 \a   scss/style.scss 3:9  root stylesheet";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  text-decoration: none;
+  color: black; /*requerido para nav bar logo por "dark mode" de bootstrap */
 }
+
+a:active {
+  background-color: red;
+}
+
+.logomargin {
+  margin-bottom: 1rem;
+}
+
+.h1span {
+  background-color: red;
+}
+
+body {
+  background-image: url(../img/back3.jpg);
+  background-position: left;
+}
+
+.footerAll {
+  font-size: x-small;
+  margin-left: 1rem;
+}
+
+.borderstyle {
+  border: solid white;
+  border-radius: 2%;
+  margin: 1rem;
+}
+
+.textdarkmode {
+  color: white; /*requerido para offcanvas en mobile */
+}
+
+.bordenav {
+  border-bottom: 1px;
+  border-color: white;
+  border-style: solid;
+}
+
+.principal {
+  margin-top: 3rem;
+}
+
+.h1 {
+  text-align: center;
+}
+
+.h1spanprincipal {
+  background-color: red;
+}
+
+.pprincipal {
+  border-style: solid;
+  border-color: white;
+  border-radius: 2%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 0.5rem;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+}
+
+.redes a {
+  padding: 0.5rem;
+}
+
+.cardsstyle {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cardmargin {
+  margin-bottom: 1rem;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.borderstyleform { /* borde para el form*/
+  border: solid white;
+  border-radius: 2%;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /*Para mejorar margen*/
+  .pprincipal {
+    border-style: solid;
+    border-color: white;
+    border-radius: 2%;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    padding: 0.5rem;
+  }
+}
+@media only screen and (min-width: 990px) {
+  .borderstyle {
+    border: none; /* fix :error raro con borde en navbar all desplegarse */
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .pprincipal {
+    /*Para mejorar margen*/
+    border-style: solid;
+    border-color: white;
+    border-radius: 2%;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    padding: 0.5rem;
+  }
+  .borderstyle {
+    border: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
