@@ -1,8 +1,7 @@
 //Modificaciones sobre Navbar Bootstrap
 
 .borderstyle{
-    border: solid white;
-    border-radius: 2%;
+    @include white-border();
     margin: 1rem;
 }
 
