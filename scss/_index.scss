@@ -13,9 +13,7 @@
 }
 
 .pprincipal {
-    border-style: solid;
-    border-color: white;
-    border-radius: 2%;
+    @include white-border();
     margin-left: 1rem;
     margin-right: 1rem;
     padding: 0.5rem;

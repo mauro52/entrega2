@@ -28,8 +28,15 @@ body {
   margin-left: 1rem;
 }
 
+.footerstyle {
+  background-color: red;
+  position: fixed;
+  bottom: 0;
+}
+
 .borderstyle {
-  border: solid white;
+  border-style: solid;
+  border-color: white;
   border-radius: 2%;
   margin: 1rem;
 }
@@ -90,7 +97,8 @@ body {
 }
 
 .borderstyleform { /* borde para el form*/
-  border: solid white;
+  border-style: solid;
+  border-color: white;
   border-radius: 2%;
   margin: 1rem;
   padding: 1rem;

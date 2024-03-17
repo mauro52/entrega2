@@ -1,6 +1,12 @@
-//Estilo general para todo el sitio (fonts, margin, etc)
+//Variables globales
 $brand-color-highlight: red;
+@mixin white-border{
+    border-style: solid;
+    border-color: white;
+    border-radius: 2%;
+}
 
+//Estilo general para todo el sitio (fonts, margin, etc)
 
 *{
     margin: 0;
@@ -19,7 +25,7 @@ a:active{
 }
 
 .h1span{
-    background-color: red;
+    background-color: $brand-color-highlight;
 }
 
 body{
@@ -30,4 +36,11 @@ body{
 .footerAll {
     font-size: x-small;
     margin-left: 1rem;
+}
+
+.footerstyle{
+    background-color: red;
+
+    position: fixed;
+    bottom: 0;
 }
