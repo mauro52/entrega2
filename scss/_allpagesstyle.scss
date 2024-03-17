@@ -1,5 +1,8 @@
 //Variables globales
 $brand-color-highlight: red;
+$MBtext-align: center;
+$MBpadding-texto: 0.5rem;
+
 @mixin white-border{
     border-style: solid;
     border-color: white;
@@ -13,7 +16,7 @@ $brand-color-highlight: red;
     padding: 0;
     font-family: 'Roboto Condensed', sans-serif;
     text-decoration: none;
-    color: black; /*requerido para nav bar logo por "dark mode" de bootstrap */
+    color: black; //requerido para nav bar logo por "dark mode" de bootstrap
 }
 
 a:active{
@@ -24,20 +27,28 @@ a:active{
     margin-bottom: 1rem;
 }
 
-.h1span{
-    background-color: $brand-color-highlight;
-}
-
 body{
     background-image: url(../img/back3.jpg);
     background-position: left;
 }
- 
-//Creado para acomodar Footer al final (y que funcione con Bootstrap en maginas con scroll)
+
+
+//Creado para acomodar Footer al final (y que funcione con Bootstrap en paginas con scroll)
 .container01{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+
+.h1span{
+    background-color: $brand-color-highlight;
+}
+
+.pprincipal {
+    @include white-border();
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: $MBpadding-texto;
 }
 
 .footerAll {

@@ -1,0 +1,43 @@
+
+.principal_us {
+    @extend .principal;
+
+    .pprincipal_us {
+        padding: $MBpadding-texto;
+        margin-top: 3rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .container-textos {
+        border-top: 1px solid white;
+        margin-top: 3rem;
+        display: flex;
+
+        .container_1{
+            background: linear-gradient(180deg, rgba(70,148,240,1) 0%, rgba(111,169,238,0) 70%);
+            font-size: 4rem;
+            padding: 1rem;
+
+            p{
+                font-weight: bolder;
+            }
+        }
+
+        .container_2{
+            background: linear-gradient(180deg, rgba(70,148,240,1) 0%, rgba(111,169,238,0) 70%);
+            font-size: 2rem;
+            font-weight: bold;
+            padding: 1rem;
+            width: 100%;
+        }
+
+    }
+
+    .mission{
+        p{
+            @extend .pprincipal_us;
+        }
+    }
+
+}

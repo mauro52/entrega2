@@ -2,29 +2,23 @@
 
 .principal{
     margin-top: 3rem;
-}
 
-.h1{
-    text-align: center;
-}
-
-.h1spanprincipal {
-    background-color: $brand-color-highlight;
-}
-
-.pprincipal {
-    @include white-border();
-    margin-left: 1rem;
-    margin-right: 1rem;
-    padding: 0.5rem;
+    .h1{
+        text-align: $MBtext-align;
+    
+        .h1spanprincipal {
+            background-color: $brand-color-highlight;
+        }
+    }
+    
 }
 
 .redes{
     display: flex;
     justify-content: center;
-}
 
-.redes a{
-    padding: 0.5rem;
+    a{
+        padding: 0.5rem;
+    }
 }
 
