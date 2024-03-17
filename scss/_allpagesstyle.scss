@@ -1,4 +1,6 @@
 //Estilo general para todo el sitio (fonts, margin, etc)
+$brand-color-highlight: red;
+
 
 *{
     margin: 0;
@@ -9,7 +11,7 @@
 }
 
 a:active{
-    background-color: red;
+    background-color: $brand-color-highlight;
 }
 
 .logomargin{
