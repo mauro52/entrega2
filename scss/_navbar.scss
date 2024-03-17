@@ -9,8 +9,12 @@
     color: white; /*requerido para offcanvas en mobile */
 }
 
-.bordenav{
-    border-bottom: 1px;
-    border-color: white;
-    border-style: solid;
+.navbar{
+    a{
+        transition: transform 0.5s ease-in-out;
+            
+        &:hover{
+            transform: translate(2px,0px)
+        }
+    }
 }

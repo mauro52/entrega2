@@ -21,4 +21,22 @@ main{
     a {
         text-decoration: none;
     }
+
+    transition: transform 0.5s ease-in-out;
+        
+    &:hover{
+        transform: translate(0,-5px)
+    }
+
+    .card-body{
+        .card-title{
+        color: $brand-color-highlight;
+        }
+    }
 }
+
+.margin-video{
+    //transform: translateY(10px);
+    margin-top: 35px;
+}
+

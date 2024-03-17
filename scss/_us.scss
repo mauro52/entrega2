@@ -1,12 +1,13 @@
+$margin-LR: 2rem;
 
 .principal_us {
     @extend .principal;
 
     .pprincipal_us {
         padding: $MBpadding-texto;
-        margin-top: 3rem;
-        margin-left: 2rem;
-        margin-right: 2rem;
+        margin-top: 1rem;
+        margin-left: $margin-LR;
+        margin-right: $margin-LR;
     }
 
     .container-textos {
@@ -31,13 +32,19 @@
             padding: 1rem;
             width: 100%;
         }
-
     }
 
     .mission{
-        p{
-            @extend .pprincipal_us;
-        }
+        margin-left: $margin-LR;
+        margin-right: $margin-LR;
     }
 
+    .psecundario_us{
+        @extend .pprincipal_us;
+    
+    }
+
+
 }
+
+

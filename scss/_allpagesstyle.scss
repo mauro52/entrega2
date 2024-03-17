@@ -4,6 +4,7 @@ $MBtext-align: center;
 $MBpadding-texto: 0.5rem;
 
 @mixin white-border{
+    border: 3px;
     border-style: solid;
     border-color: white;
     border-radius: 2%;
@@ -21,6 +22,7 @@ $MBpadding-texto: 0.5rem;
 
 a:active{
     background-color: $brand-color-highlight;
+
 }
 
 .logomargin{
@@ -49,6 +51,7 @@ body{
     margin-left: 1rem;
     margin-right: 1rem;
     padding: $MBpadding-texto;
+        
 }
 
 .footerAll {
