@@ -1,5 +1,19 @@
 //Index
 
+@keyframes flashcolor{
+    0%{
+        background-color: $brand-color-highlight;
+    }
+
+    50%{
+        background-color: #ff00007c;
+    }
+
+    100%{
+        background-color: #ff000000;
+    }
+}
+
 .principal{
     margin-top: 3rem;
 
@@ -7,7 +21,11 @@
         text-align: $MBtext-align;
     
         .h1spanprincipal {
-            background-color: $brand-color-highlight;
+            animation-name: flashcolor;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-duration: 3s;
+            animation-delay: 2s;
         }
     }
     
@@ -19,6 +37,11 @@
 
     a{
         padding: 0.5rem;
+
+        transition: 1s;
+        &:hover{
+            transform: scale(1.2);
+        }
     }
 }
 
