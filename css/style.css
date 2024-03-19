@@ -152,6 +152,8 @@ main .h1 {
   margin-top: 1rem;
   margin-left: 2rem;
   margin-right: 2rem;
+  display: flex;
+  justify-content: center;
 }
 .principal_us .container-textos {
   border-top: 1px solid white;
@@ -176,7 +178,13 @@ main .h1 {
 .principal_us .mission {
   margin-left: 2rem;
   margin-right: 2rem;
+  display: flex;
+  justify-content: center;
 }
+.principal_us .psecundario_us {
+  background: linear-gradient(to bottom, rgb(70, 148, 240), rgba(111, 169, 238, 0));
+}
+
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   /*Para mejorar margen*/
   .pprincipal {

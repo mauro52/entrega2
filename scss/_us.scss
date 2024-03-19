@@ -3,11 +3,14 @@ $margin-LR: 2rem;
 .principal_us {
     @extend .principal;
 
+
     .pprincipal_us {
         padding: $MBpadding-texto;
         margin-top: 1rem;
         margin-left: $margin-LR;
         margin-right: $margin-LR;
+        display: flex;
+        justify-content: center;
     }
 
     .container-textos {
@@ -37,10 +40,13 @@ $margin-LR: 2rem;
     .mission{
         margin-left: $margin-LR;
         margin-right: $margin-LR;
+        display: flex;
+        justify-content: center;
     }
 
     .psecundario_us{
         @extend .pprincipal_us;
+        background: linear-gradient(to bottom,  rgba(70,148,240,1), rgba(111,169,238,0));
     
     }
 
