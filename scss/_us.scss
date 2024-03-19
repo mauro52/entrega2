@@ -19,7 +19,7 @@ $margin-LR: 2rem;
         display: flex;
 
         .container_1{
-            background: linear-gradient(180deg, rgba(70,148,240,1) 0%, rgba(111,169,238,0) 70%);
+            background: linear-gradient(180deg, #a49f9f 0%, rgba(111,169,238,0) 70%);
             font-size: 4rem;
             padding: 1rem;
 
@@ -29,7 +29,7 @@ $margin-LR: 2rem;
         }
 
         .container_2{
-            background: linear-gradient(180deg, rgba(70,148,240,1) 0%, rgba(111,169,238,0) 70%);
+            background: linear-gradient(180deg, #a49f9f 0%, rgba(111,169,238,0) 70%);
             font-size: 2rem;
             font-weight: bold;
             padding: 1rem;
@@ -46,7 +46,7 @@ $margin-LR: 2rem;
 
     .psecundario_us{
         @extend .pprincipal_us;
-        background: linear-gradient(to bottom,  rgba(70,148,240,1), rgba(111,169,238,0));
+        background: linear-gradient(to bottom,  #a49f9f, rgba(111,169,238,0));
     
     }
 

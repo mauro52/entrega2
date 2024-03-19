@@ -16,8 +16,7 @@ a:active {
 }
 
 body {
-  background-image: url(../img/back3.jpg);
-  background-position: left;
+  background-image: linear-gradient(to bottom, #a49f9f, white);
 }
 
 .container01 {
@@ -30,7 +29,7 @@ body {
   background-color: red;
 }
 
-.pprincipal {
+.pprincipal, .pprincipal_contact {
   border: 3px;
   border-style: solid;
   border-color: white;
@@ -147,6 +146,11 @@ main .h1 {
   padding: 1rem;
 }
 
+.pprincipal_contact {
+  display: flex;
+  justify-content: center;
+}
+
 .principal_us .pprincipal_us, .principal_us .psecundario_us {
   padding: 0.5rem;
   margin-top: 1rem;
@@ -161,7 +165,7 @@ main .h1 {
   display: flex;
 }
 .principal_us .container-textos .container_1 {
-  background: linear-gradient(180deg, rgb(70, 148, 240) 0%, rgba(111, 169, 238, 0) 70%);
+  background: linear-gradient(180deg, #a49f9f 0%, rgba(111, 169, 238, 0) 70%);
   font-size: 4rem;
   padding: 1rem;
 }
@@ -169,7 +173,7 @@ main .h1 {
   font-weight: bolder;
 }
 .principal_us .container-textos .container_2 {
-  background: linear-gradient(180deg, rgb(70, 148, 240) 0%, rgba(111, 169, 238, 0) 70%);
+  background: linear-gradient(180deg, #a49f9f 0%, rgba(111, 169, 238, 0) 70%);
   font-size: 2rem;
   font-weight: bold;
   padding: 1rem;
@@ -182,12 +186,12 @@ main .h1 {
   justify-content: center;
 }
 .principal_us .psecundario_us {
-  background: linear-gradient(to bottom, rgb(70, 148, 240), rgba(111, 169, 238, 0));
+  background: linear-gradient(to bottom, #a49f9f, rgba(111, 169, 238, 0));
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   /*Para mejorar margen*/
-  .pprincipal {
+  .pprincipal, .pprincipal_contact {
     border: 3px;
     border-style: solid;
     border-color: white;
@@ -206,7 +210,7 @@ main .h1 {
   }
 }
 @media only screen and (min-width: 1025px) {
-  .pprincipal {
+  .pprincipal, .pprincipal_contact {
     /*Para mejorar margen*/
     border: 3px;
     border-style: solid;
