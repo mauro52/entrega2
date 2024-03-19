@@ -22,7 +22,6 @@ $MBpadding-texto: 0.5rem;
 
 a:active{
     background-color: $brand-color-highlight;
-
 }
 
 .logomargin{
@@ -30,8 +29,7 @@ a:active{
 }
 
 body{
-    background-image: url(../img/back3.jpg);
-    background-position: left;
+    background-image: linear-gradient(to bottom, #a49f9f, white);
 }
 
 

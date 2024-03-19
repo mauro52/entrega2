@@ -3,11 +3,14 @@ $margin-LR: 2rem;
 .principal_us {
     @extend .principal;
 
+
     .pprincipal_us {
         padding: $MBpadding-texto;
         margin-top: 1rem;
         margin-left: $margin-LR;
         margin-right: $margin-LR;
+        display: flex;
+        justify-content: center;
     }
 
     .container-textos {
@@ -16,7 +19,7 @@ $margin-LR: 2rem;
         display: flex;
 
         .container_1{
-            background: linear-gradient(180deg, rgba(70,148,240,1) 0%, rgba(111,169,238,0) 70%);
+            background: linear-gradient(180deg, #a49f9f 0%, rgba(111,169,238,0) 70%);
             font-size: 4rem;
             padding: 1rem;
 
@@ -26,7 +29,7 @@ $margin-LR: 2rem;
         }
 
         .container_2{
-            background: linear-gradient(180deg, rgba(70,148,240,1) 0%, rgba(111,169,238,0) 70%);
+            background: linear-gradient(180deg, #a49f9f 0%, rgba(111,169,238,0) 70%);
             font-size: 2rem;
             font-weight: bold;
             padding: 1rem;
@@ -37,10 +40,13 @@ $margin-LR: 2rem;
     .mission{
         margin-left: $margin-LR;
         margin-right: $margin-LR;
+        display: flex;
+        justify-content: center;
     }
 
     .psecundario_us{
         @extend .pprincipal_us;
+        background: linear-gradient(to bottom,  #a49f9f, rgba(111,169,238,0));
     
     }
 
