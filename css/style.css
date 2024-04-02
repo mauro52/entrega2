@@ -28,7 +28,7 @@ body {
   background-color: red;
 }
 
-.pprincipal, .pprincipal_contact {
+.pprincipal, .pprincipal_contact, .principal .pprincipal-index02, .principal_us .pprincipal-index02, .principal .pprincipal-index, .principal_us .pprincipal-index {
   border: 3px;
   border-style: solid;
   border-color: white;
@@ -90,6 +90,9 @@ body {
   animation-timing-function: linear;
   animation-duration: 3s;
   animation-delay: 2s;
+}
+.principal .pprincipal-index02, .principal_us .pprincipal-index02 {
+  margin-top: 3rem;
 }
 
 .redes {
@@ -190,17 +193,25 @@ main .h1 {
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   /*Para mejorar margen*/
-  .pprincipal, .pprincipal_contact {
+  .pprincipal, .principal .pprincipal-index, .principal .pprincipal-index02, .pprincipal_contact, .principal_us .pprincipal-index, .principal_us .pprincipal-index02 {
     border: 3px;
     border-style: solid;
     border-color: white;
     border-radius: 2%;
-    margin-left: 15rem;
-    margin-right: 15rem;
+    margin-left: 11rem;
+    margin-right: 11rem;
     padding: 0.5rem;
   }
   .container_2_p {
     transform: translate(0, 70px);
+  }
+  .principal .pprincipal-index, .principal_us .pprincipal-index {
+    padding: 3rem;
+    font-size: 1.2rem;
+  }
+  .principal .pprincipal-index02, .principal_us .pprincipal-index02 {
+    padding: 3rem;
+    font-size: 1.2rem;
   }
 }
 @media only screen and (min-width: 990px) {
@@ -209,7 +220,7 @@ main .h1 {
   }
 }
 @media only screen and (min-width: 1025px) {
-  .pprincipal, .pprincipal_contact {
+  .pprincipal, .principal .pprincipal-index, .principal .pprincipal-index02, .pprincipal_contact, .principal_us .pprincipal-index, .principal_us .pprincipal-index02 {
     /*Para mejorar margen*/
     border: 3px;
     border-style: solid;
@@ -224,6 +235,14 @@ main .h1 {
   }
   .container_2_p {
     transform: translate(0, 70px);
+  }
+  .principal .pprincipal-index, .principal_us .pprincipal-index {
+    padding: 3rem;
+    font-size: 1.5rem;
+  }
+  .principal .pprincipal-index02, .principal_us .pprincipal-index02 {
+    padding: 3rem;
+    font-size: 1.5rem;
   }
 }
 

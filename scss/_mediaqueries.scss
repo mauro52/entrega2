@@ -2,14 +2,27 @@
     /*Para mejorar margen*/
     .pprincipal {
         @include white-border();
-        margin-left: 15rem;
-        margin-right: 15rem;
+        margin-left: 11rem;
+        margin-right: 11rem;
         padding: 0.5rem;
     }
 
     .container_2_p{
         transform: translate(0,70px);
     }
+
+    .principal{
+        .pprincipal-index{
+            padding: 3rem;
+            font-size: 1.2rem;
+        }
+    
+        .pprincipal-index02{
+            padding: 3rem;
+            font-size: 1.2rem;
+        }
+    }
+    
 
 }
 
@@ -37,6 +50,16 @@
         transform: translate(0,70px);
     }
 
-
+    .principal{
+        .pprincipal-index{
+            padding: 3rem;
+            font-size: 1.5rem;
+        }
+    
+        .pprincipal-index02{
+            padding: 3rem;
+            font-size: 1.5rem;
+        }
+    }
 
 }

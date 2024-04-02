@@ -28,6 +28,16 @@
             animation-delay: 2s;
         }
     }
+
+    .pprincipal-index{
+        @extend .pprincipal;
+    }
+
+    .pprincipal-index02{
+        @extend .pprincipal;
+        margin-top: 3rem;
+    }
+    
     
 }
 
